@@ -1,0 +1,99 @@
+<!Doctype html>
+<html>
+<div id="container">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omizu | Help</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  </head>
+  <header>
+    <link rel="stylesheet" type="text/css" href="css/help.css">
+    <nav id="navbar">
+      <span onclick="openNav()">&#9776;</span>
+      <ul>
+        <a class="alg" href="index.html"><img class="logo" src="img/omizu-logo.jpg" alt=""></a>
+        <li><a id="a" class="cu" href="index.html">Home</a></li>
+        <li><a id="b" href="aboutus.html">About Us</a></li>
+        <li><a id="c" href="product.html">Product</a></li>
+        <li><a id="d" href="help.html">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="msnav" class="snav">
+    <div id="snava">
+      <a id="close" href="javascript:void(0)" class="close" onclick="cNav()"><img src="img/x.png" class="x"></a>
+      <a class="home" href="index.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="product.html">Product</a>
+      <a href="help.html">Help</a>
+    </div>
+
+  </div>
+
+  <body>
+    <div class="head">
+      <img src="" alt="">
+      <h1 class="h1">Need help? Feel free to contact us!</h1>
+      <p class="pn">Phone Number: <a href="tel:+60165206881">+6016-5206881</a></p>
+      <p class="pns">Office Number:<a href="tel:+6055455299:">+605-5455299</a></p>
+      <p class="e">Email: <a href="mailto:omizuip@gmail.com">omizuip@gmail.com</a></p>
+      <a href="https://wa.me/60165206881"><img src="img/whatsapplogo.png" alt="" class="wsl"></a>
+      <hr class="lineone">
+      <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15907.175056803799!2d101.1528993!3d4.6308504!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x952ec6e92b17e8b2!2sOmizu+SDN+BHD!5e0!3m2!1sen!2smy!4v1553583374155" width="600"
+          height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <hr class="linetwo">
+      <h1>FAQ</h1>
+      <div class="faq">
+        <h3>Q: Some questions?</h3>
+        <p>A: Of course!</p>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <div class="omz">
+      <h3 class="h12">Omizu</h3>
+      <a href="aboutus.html" class="f1">About us</a>
+      <a href="#" class="f1">Careers</a>
+    </div>
+
+    <div class="cs">
+      <h3 class="h12">Customer Service</h3>
+      <a href="help.html" class="f1">FAQ</a>
+      <a href="help.html" class="f1">Contact Us</a>
+    </div>
+
+    <div class="copy">
+      <p>Copyright (c) 2006-2010, Omizu Sdn. Bhd. All right reserved.</p>
+    </div>
+</div>
+</footer>
+
+</html>
+
+<script type="text/javascript">
+
+
+  var sideNav = document.getElementById("msnav")
+  var sideNavA = document.getElementById("snava")
+
+  function openNav() {
+    msnav.style.width = "50%";
+    msnav.style.height = "110%"
+    msnav.style.filter = "drop-shadow(2px 2px 5px #000000)";
+    snava.style.display = "block";
+    document.body.style.overflow = "hidden";
+  }
+
+  function cNav() {
+    msnav.style.width = "0";
+    msnav.style.height = "0"
+    snava.style.display = "none";
+    document.body.style.overflow = "auto";
+  }
+
+</script>
