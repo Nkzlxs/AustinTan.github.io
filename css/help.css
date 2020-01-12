@@ -283,6 +283,31 @@ li a:hover {
   .copy p {
     font-size: 10px;
   }
+
+  .map-responsive {
+    padding: 100px 0px 250px 0px ;
+    overflow: hidden;
+    position: relative;
+    height: 0;
+    margin: 120px 10px 50px 10px;
+  }
+
+  .map-responsive iframe {
+    padding-left: 10px;
+    padding-right: 50px;
+    left: 50%;
+    top: 0;
+    width: 550px;
+    height: 350px;
+    position: absolute;
+    margin-top: 100px;
+  }
+
+  .contact {
+    margin-right: 10% !important;
+    margin-left: 50px !important;
+    margin-top: 35px;
+  }
 }
 
 .cu {
@@ -325,21 +350,20 @@ li a:hover {
 }
 
 .map-responsive {
+  padding: 100px 0px 250px 0px ;
   overflow: hidden;
-  padding-bottom: 56.25%;
   position: relative;
   height: 0;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 20px 10px 50px 10px;
 }
 
 .map-responsive iframe {
-  left: 0;
+  padding-left: 10px;
+  padding-right: 50px;
+  left: 50%;
   top: 0;
-  height: 100%;
-  width: 100%;
+  width: 550px;
+  height: 350px;
   position: absolute;
 }
 
@@ -415,4 +439,15 @@ footer {
   text-align: center;
   display: inline-block;
   margin-top: 110px;
+}
+
+.contact {
+  position: absolute;
+  margin-right: 50%;
+  margin-left: 100px;
+  margin-top: 35px;
+}
+
+.contact p {
+  font-size: 20px;
 }
