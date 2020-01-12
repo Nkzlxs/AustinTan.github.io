@@ -285,7 +285,7 @@ li a:hover {
   }
 
   .map-responsive {
-    padding: 100px 0px 260px 0px !important;
+    padding: 100px 0px 400px 0px !important;
     overflow: hidden;
     position: relative;
     height: 0;
@@ -300,12 +300,12 @@ li a:hover {
     width: 92vw !important;
     height: 220px !important;
     position: absolute;
-    margin-top: 32vw;
+    margin-top: 270px;
   }
 
   .contact {
-    margin-right: 10% !important;
-    margin-left: 15% !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
     margin-top: 35px;
   }
 }
