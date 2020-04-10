@@ -1,0 +1,88 @@
+<!Doctype html>
+<html>
+<div id="container">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omizu | Body Acu-Pro II</title>
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <header>
+    <link rel="stylesheet" type="text/css" href="css/bapll.css">
+    <nav id="navbar">
+      <span onclick="openNav()">&#9776;</span>
+      <ul>
+        <a class="alg" href="index.html"><img class="logo" src="img/omizu-logo.jpg" alt=""></a>
+        <li><a id="a" class="cu" href="index.html">Home</a></li>
+        <li><a id="b" href="aboutus.html">About Us</a></li>
+        <li><a id="c" href="product.html">Product</a></li>
+        <li><a id="d" href="help.html">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="msnav" class="snav">
+    <div id="snava">
+      <a id="close" href="javascript:void(0)" class="close" onclick="cNav()"><img src="img/x.png" class="x"></a>
+      <a class="home" href="index.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="product.html">Product</a>
+      <a href="help.html">Help</a>
+    </div>
+  </div>
+
+  <body>
+    <div class="head">
+      <div class="pic">
+        <img class="bapllon2" src="img/bapllon.png" alt="">
+      </div>
+      <div class="title">
+        <h1>Body Acu-Pro II</h1>
+        <p>Introducing Body Acu-Pro II....</p>
+          <a href="product.html"><button class="co">Check out!</button></a>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <div class="omz">
+      <h3 class="h12">Omizu</h3>
+      <a href="aboutus.html" class="f1">About us</a>
+      <a href="#" class="f1">Careers</a>
+    </div>
+
+    <div class="cs">
+      <h3 class="h12">Customer Service</h3>
+      <a href="help.html" class="f1">FAQ</a>
+      <a href="help.html" class="f1">Contact Us</a>
+    </div>
+
+    <div class="copy">
+      <p>Copyright (c) 2006-2010, Omizu Sdn. Bhd. All right reserved.</p>
+    </div>
+</div>
+</footer>
+</html>
+
+<script type="text/javascript">
+
+
+  var sideNav = document.getElementById("msnav")
+  var sideNavA = document.getElementById("snava")
+
+  function openNav() {
+    msnav.style.width = "50%";
+    msnav.style.height = "110%"
+    msnav.style.filter = "drop-shadow(2px 2px 5px #000000)";
+    snava.style.display = "block";
+    document.body.style.overflow = "hidden";
+  }
+
+  function cNav() {
+    msnav.style.width = "0";
+    msnav.style.height = "110%"
+    snava.style.display = "none";
+    document.body.style.overflow = "auto";
+  }
+
+</script>

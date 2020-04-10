@@ -148,23 +148,19 @@ li a:hover {
 
   .snav a {
     padding: 10px;
-    color: #FFFFFF;
-    background-color: #474747;
-    border: 4px solid #333333;
-    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #FFFFFF;
     display: block;
-    font-size: 16px;
+    margin: 10px 0 10px 0;
+    font-size: 18px;
     font-style: normal;
     text-align: center;
-    margin: 8px 10px 8px 0px;
-    margin-left: 15px;
     font-family: 'Lato', sans-serif;
   }
 
   .snav a:hover {
     transition: 0.2s;
-    background-color: #898989;
-    border-color: #333333;
+    background-color: #d6d6d6;
   }
 
   .home {
