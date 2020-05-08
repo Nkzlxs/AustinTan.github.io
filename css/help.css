@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0px;  
+  background: transparent;  
+}
+
 span {
   display: none;
   cursor: pointer;
@@ -128,11 +137,11 @@ li a:hover {
     padding-bottom: 20px;
   }
 
-.map-responsive {
-  overflow: hidden;
-  position: relative;
-  margin: 50px 5% 30px 50%;
-}
+  .map-responsive {
+    overflow: hidden;
+   position: relative;
+   margin: 50px 5% 30px 50%;
+  }
   
   .map-responsive iframe {
     padding-left: 0px !important;
@@ -143,6 +152,12 @@ li a:hover {
     color: #000000 !important;
   }
 
+    .contact {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -412,7 +427,6 @@ li a:hover {
   .head {
     padding-top: 35px !important;
     padding-bottom: 0 !important;
-    padding-right: 10%;
   }
 
   .sticky {
