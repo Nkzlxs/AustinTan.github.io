@@ -541,6 +541,7 @@ li a:hover {
   overflow: hidden;
   position: relative;
   margin: 50px 5% 30px 50%;
+  flex: 50%;
 }
 
 .map-responsive iframe {
@@ -627,6 +628,7 @@ footer {
   position: absolute;
   margin: 10px 15% 0 12%;
   z-index: 1;
+  flex: 50%;
 }
 
 .contact p {
