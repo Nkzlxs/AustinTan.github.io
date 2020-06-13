@@ -50,11 +50,6 @@ nav li {
   z-index: 1;
 }
 
-.logo:hover {
-  transition: transform 0.1s linear;
-  transform: scale(1.05);
-}
-
 li a {
   text-decoration: none;
   color: #000000;
@@ -66,6 +61,7 @@ li a {
   font-size: 13pt;
   transition: 350ms linear;
   border-radius: 2px;
+  margin-bottom: 15px;
 }
 
 li a:hover {
@@ -309,15 +305,18 @@ li a:hover {
   padding-right: 40px;
   padding-top: 15px;
   padding-bottom: 15px;
-  transition: color 800ms;
+  transition: background-color 200ms linear;
+  cursor: pointer;
 }
 
 .co:hover {
-  color: #000000;
-  background-color: #b5b5b5;
+  transition: background-color 200ms linear;
+  color: #ffffff;
+  background-color: #747474;
 }
 
 footer {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #474747;
   position: absolute;
   left: 0;
@@ -327,7 +326,7 @@ footer {
 
 .h1 {
   color: #e8e8e8;
-  font-family: 'Rubik', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .f1 {
@@ -338,9 +337,7 @@ footer {
 }
 
 .f1:hover {
-  transition: border-bottom 0.1s linear;
-  border-bottom: 3.5px solid white;
-  position: static;
+  text-decoration: underline;
 }
 
 .omz {
@@ -374,7 +371,7 @@ footer {
 
 .bapllon2{
     float: right;
-    width: 60%;
+    width: 1000px;
     height: auto;
     
 }
@@ -392,6 +389,7 @@ footer {
 }
 
 .sec1 {
+  margin-left: 50px;
   padding-bottom: 300px;
 }
 
@@ -399,6 +397,11 @@ footer {
   margin-top: 150px;
   position: relative;
   display: inline-block
+}
+
+.sec2 {
+  margin-top: 200px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .sec3 {
