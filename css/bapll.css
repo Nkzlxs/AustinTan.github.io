@@ -673,6 +673,7 @@ footer {
   background-color: #fff;
   margin-top: 40px;
   right: 175px;
+  padding: 0;
 }
 
 #navbar ul li:hover ul {
