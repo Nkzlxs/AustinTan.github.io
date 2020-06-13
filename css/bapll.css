@@ -50,28 +50,23 @@ nav li {
   z-index: 1;
 }
 
-.logo:hover {
-  transition: transform 0.1s linear;
-  transform: scale(1.05);
-}
-
 li a {
   text-decoration: none;
   color: #000000;
   font-family: 'Rubik', sans-serif;
   display: inline;
   z-index: 1;
-  margin-top: 12px;
-  margin-bottom: 22px;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding: 10px;
   float: right;
   font-size: 13pt;
+  transition: 350ms linear;
+  border-radius: 2px;
+  margin-bottom: 15px;
 }
 
 li a:hover {
-  transition: border-bottom 0.05s ease-out;
-  border-bottom: 3.5px solid black;
+  transition: 350ms linear;
+  background-color: #c5c5c5;
 }
 
 .h1 {
@@ -439,11 +434,20 @@ li a:hover {
 
 .head {
   padding-top: 80px;
-  padding-left: 10px;
-  padding-bottom: 30px;
   color: #000000;
   font-family: 'Rubik', sans-serif;
   text-align: center;
+  animation: transitionIn 700ms;
+}
+
+@keyframes  transitionIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .head a {
@@ -466,14 +470,18 @@ li a:hover {
   padding-right: 40px;
   padding-top: 15px;
   padding-bottom: 15px;
+  transition: background-color 200ms linear;
+  cursor: pointer;
 }
 
 .co:hover {
-  color: #000000;
-  background-color: #b5b5b5;
+  transition: background-color 200ms linear;
+  color: #ffffff;
+  background-color: #747474;
 }
 
 footer {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #474747;
   position: absolute;
   left: 0;
@@ -483,7 +491,7 @@ footer {
 
 .h1 {
   color: #e8e8e8;
-  font-family: 'Rubik', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .f1 {
@@ -494,9 +502,7 @@ footer {
 }
 
 .f1:hover {
-  transition: border-bottom 0.1s linear;
-  border-bottom: 3.5px solid white;
-  position: static;
+  text-decoration: underline;
 }
 
 .omz {
@@ -530,7 +536,7 @@ footer {
 
 .bapllon2{
     float: right;
-    width: 60%;
+    width: 1000px;
     height: auto;
     
 }
@@ -545,4 +551,136 @@ footer {
 
 .title p {
   margin: 12px 0 15px 0;
+}
+
+.sec1 {
+  margin-left: 50px;
+  padding-bottom: 300px;
+}
+
+.sec1 h1 {
+  margin-top: 150px;
+  position: relative;
+  display: inline-block
+}
+
+.sec2 {
+  margin-top: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec3 {
+  padding-top: 10%;
+  margin-bottom: 5%;
+}
+
+.sec3 img {
+  width: 300px;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+}
+
+.sec3 p {
+  font-size: 18px;
+  margin-left: 25%;
+  position: relative;
+  display: inline-block;
+
+}
+
+.left {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.left p {
+  margin-left: 0 !important;
+}
+
+.right {
+  margin-left: 20%;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.right p {
+  margin-left: 0 !important;
+}
+
+.right img {
+  width: 300px;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+}
+
+.sec4 {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin-bottom: 0 !important;
+  background-color: #2c2c2c;
+}
+
+.sec4 h3 {
+  color: #dddddd;
+  font-family: Arial;
+  margin-bottom: 20px !important;
+}
+
+.sec4 h4 {
+  margin-bottom: 0 !important;
+  color: #dddddd;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+}
+
+.sec4 p {
+  margin-bottom: 0 !important;
+  color: #dddddd;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+}
+
+.bk {
+  background-color: #666666;
+  padding-top: 8px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#navbar ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 0;
+  margin-top: 40px;
+  right: 175px;
+  box-shadow: 0px 10px 50px 0px rgba(0,0,0,0);
+}
+
+#navbar ul li:hover ul {
+  display: block;
+  transition: 500ms linear;
+}
+
+#navbar ul li ul li a {
+  padding: 10px 20px;
 }
