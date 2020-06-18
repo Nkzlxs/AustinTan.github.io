@@ -565,10 +565,19 @@ footer {
 }
 
 .sec2 {
-  margin-top: 200px;
+  margin-top: 100px;
   font-family: Arial, Helvetica, sans-serif;
 }
+/**
+.sec2 h1 {
+  text-shadow: 2px 5px 5px black;
+}
 
+.sec2 p {
+  text-shadow: 2px 5px 5px black;
+  font-size: 20px;
+}
+**/
 .sec3 {
   padding-top: 10%;
   margin-bottom: 5%;
@@ -645,6 +654,31 @@ footer {
   text-align: left;
   position: relative;
   display: inline-block;
+}
+
+.sec5 {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.sec5 img{
+  grid-column: 1/1;
+  grid-row: 1/2; 
+}
+
+.sec5 h1 {
+  margin-top: 100px;
+}
+
+.sec5 p{
+  margin-top: 200px;
+}
+
+.t1 {
+  grid-column: 2/2;
+  grid-row: 1/2;
 }
 
 .bk {
