@@ -592,7 +592,6 @@ footer {
 
 .sec3 p {
   font-size: 18px;
-  margin-left: 25%;
   position: relative;
   display: inline-block;
 
@@ -675,6 +674,20 @@ footer {
 .sec5 p{
   margin-top: 200px;
   font-size: 18px;
+}
+
+.sec6 img {
+  height: 180px;
+  width: 180px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+.sec6 p {
+  grid-row: 2/2;
+  position: relative;
+  display: inline;
+  margin-top: 10px;
 }
 
 .t1 {
