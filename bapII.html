@@ -46,8 +46,15 @@
           <img class="bapllon2" src="img/bapllon-min.png" alt="">
           <h1>Body Acu-Pro II</h1>
           <p>Body Acupuncture-Pro II is a traditional massage but packed inside a small portable device and it is also the most durable acupuncture ever sold by Omizu.</p>
-            <a href="https://bit.ly/acuproII" target="_blank"><button class="co">Buy it now!</button></a>
       </div>
+      <div class="bk">
+        <button class="sect"><i class="arrow down"></i>Where to buy<i class="arrow down"></i></button>
+        <div class="sec3">
+          <a target="_blank" href="https://bit.ly/acuproII"><img src="img/lzd.png" alt=""></a>
+        </div>
+      
+      </div>
+      <div class="bk"></div>
       <div class="sec5">
         <h1 class="t1">But why use Body Acu-Pro II?</h1>
         <p class="t1">Because it can improve your sleep quality. <br>Eliminate physical fatigue caused by work. <br>Cleaning meridian and relax your muscle and joint. <br>Relieve pain and enchane your immune system. <br> Improve your blood circulations.</p>
@@ -55,26 +62,25 @@
       </div>
       <div class="sec2">
         <h1>Rechargeable battery?</h1>
-        <p>Like most smartphone it include lithium-ion rechargeable battery! <br> And charge it like a phone with micro-usb!</micro-usb></h3>
-      </div>
-      <div class="sec3">
-          <img src="img/bapll_top.png" alt="">
-          <br>
-          <p class="">Dual output channel</p>
+        <p>Like most smartphone it include lithium-ion rechargeable battery! <br> And charge it like a phone with micro-usb!</p><br>
+        <h1>Dual Output Support?</h1>
+        <p>Yeah we also have dual output for you to use.</p><br>
+        <img src="img/bapll_topwithtxt.png" alt="">
       </div>
       <div class="sec6">
+        <h1>6 Different mode & 4 different automode </h1>
         <img src="img/hmr.jpg"  alt="">
         <img src="img/acp.jpg"  alt="">
         <img src="img/npy.jpg"  alt="">
         <img src="img/cup.jpg"  alt="">
         <img src="img/scp.jpg"  alt="">
         <img src="img/msg.jpg"  alt=""><br>
-        <p class="hmr">Mode 1</p>
-        <p class="acp">Mode 2</p>
-        <p class="npy">Mode 3</p>
-        <p class="cup">Mode 4</p>
-        <p class="scp">Mode 5</p>
-        <p class="msg">Mode 6</p>
+        <p class="hmr">Mode 1 <br>Hammering</p>
+        <p class="acp">Mode 2 <br>Acupuncture</p>
+        <p class="npy">Mode 3 <br>Naprapathy</p>
+        <p class="cup">Mode 4 <br>Cupping</p>
+        <p class="scp">Mode 5 <br>Scraping</p>
+        <p class="msg">Mode 6 <br>Massage</p>
       </div>
       <div class="bk"></div>
       <div class="sec4">
@@ -117,6 +123,8 @@
 
   var sideNav = document.getElementById("msnav")
   var sideNavA = document.getElementById("snava")
+  var retail = document.getElementsByClassName("sect")
+  var i;
 
   function openNav() {
     msnav.style.width = "50%";
@@ -131,6 +139,18 @@
     msnav.style.height = "110%"
     snava.style.display = "none";
     document.body.style.overflow = "auto";
+  }
+
+  for (i = 0; i < retail.length; i++) {
+    retail[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null; 
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    })
   }
 
 </script>
