@@ -12,16 +12,14 @@
     <nav id="navbar">
       <span onclick="openNav()">&#9776;</span>
       <ul>
-        <a class="alg" href="index.html"><img class="logo" src="img/omizu-logo.jpg" alt=""></a>
-        <li><a id="a" class="cu" href="index.html">Home</a></li>
-        <li><a id="b" href="aboutus.html">About Us</a></li>
-        <li><a id="c" href="#">Product <i class="arrow down"></i></a>
-          <ul>
-            <li><a href="bapII.html">Body Acu-Pro II</a></li>
-            <li><a href="#">Product 2</a></li>
-            <li><a href="#">Product 3</a></li>
-          </ul>
-      </li>
+        <a class="alg" href="#"><img class="logo" src="img/omizu-logo.jpg" alt=""></a>
+        <li><a id="a" onclick="undone()" class="cu" href="#" style="background-color: #ff7d7d;">Home</a></li>
+        <li><a id="b" onclick="undone()" href="#" style="background-color: #ff7d7d;">About Us</a></li>
+        <li><a id="c" href="">Product <i class="arrow down"></i></a>
+            <ul>
+              <li><a href="bapII.html">Body Acu-Pro II</a></li>
+            </ul>
+        </li>
         <li><a id="d" href="help.html">Help</a></li>
       </ul>
     </nav>
@@ -44,8 +42,8 @@
   <footer>
     <div class="omz">
       <h3 class="h12">Omizu</h3>
-      <a href="aboutus.html" class="f1">About us</a>
-      <a href="#" class="f1">Careers</a>
+      <a onclick="undone()" href="#" class="f1">About us</a>
+      <a onclick="undone()" href="#" class="f1">Careers</a>
     </div>
 
     <div class="cs">
@@ -78,5 +76,9 @@
     msnav.style.height = "0"
     snava.style.display = "none";
     document.body.style.overflow = "auto";
+  }
+
+  function undone() {
+    alert("Under contruction!");
   }
 </script>
