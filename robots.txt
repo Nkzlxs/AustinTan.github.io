@@ -1,2 +1,3 @@
+https://omizu.netlify.app/robots.txt
 User-agent: *
 Disallow:

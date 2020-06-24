@@ -3,7 +3,15 @@
 <div id="container">
 
   <head>
-    <script src="js/gtag.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170457967-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+
+       gtag('config', 'UA-170457967-1');
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omizu | About us</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/png">
@@ -28,7 +36,7 @@
 
   <div id="msnav" class="snav">
     <div id="snava">
-      <a id="close" href="javascript:void(0)" class="close" onclick="cNav()"><img src="img/x.png" class="x"></a>
+      <a id="close" href="javascript:void(0)" class="close" onclick="cNav()"><img src="img/x.png" alt="X" class="x"></a>
       <a class="home" href="index.html">Home</a>
       <a href="aboutus.html">About Us</a>
       <a href="product.html">Product</a>
