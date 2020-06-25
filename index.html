@@ -1,11 +1,19 @@
 <!Doctype html>
-<html>
+<html lang="en">
 <div id="container">
 
   <head>
-    <script src="js/gtag.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170457967-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+
+       gtag('config', 'UA-170457967-1');
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omizu | Home</title>
+    <title>Omizu | Health Care | Acupuncture | Sauna</title>
     <meta name="Description" content="Health is our number one priority. We sell health care product to improve your life!">
     <meta name="Keywords" content="Omizu, health, health care, acupuncture, sauna, Malaysia">
     <meta property="og:type" content="company">
@@ -36,10 +44,10 @@
 
   <div id="msnav" class="snav">
     <div id="snava">
-      <a id="close" href="javascript:void(0)" class="close" onclick="cNav()"><img src="img/x.png" class="x"></a>
+      <a id="close" href="javascript:void(0)" class="close" onclick="cNav()"><img src="img/x.png" alt="X" class="x"></a>
       <a class="home" href="index.html">Home</a>
       <a href="aboutus.html">About Us</a>
-      <a href="product.html">Product</a>
+      <a href="#" style="background-color: #ff7d7d;">Product</a>
       <a href="help.html">Help</a>
     </div>
   </div>
