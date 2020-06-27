@@ -426,6 +426,28 @@ li a:hover {
   .copy p {
     font-size: 10px;
   }
+
+  .nsect {
+    width: 100%;
+    border: 0;  
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #FFFFFF;
+    display: block;
+    margin: 10px 0 10px 0 !important;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .nsec {
+    display: none;
+  }
+
+  .nsec a {
+    background-color: #ebebeb;
+  }
 }
 
 .cu {

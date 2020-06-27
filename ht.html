@@ -51,7 +51,10 @@
       <a id="close" href="javascript:void(0)" class="close" onclick="cNav()"><img src="img/x.png" alt="X" class="x"></a>
       <a class="home" href="index.html">Home</a>
       <a href="aboutus.html">About Us</a>
-      <a href="#">Product</a>
+      <button class="nsect" href="#">Product  <i class="arrow down"></i></button>
+      <div class="nsec" >
+        <a href="bapII.html"><i class="arrow right"></i>Body Acu-Pro II</a>
+      </div>
       <a href="help.html">Help</a>
     </div>
   </div>
@@ -115,6 +118,7 @@
   var sideNav = document.getElementById("msnav")
   var sideNavA = document.getElementById("snava")
   var retail = document.getElementsByClassName("sect")
+  var nav = document.getElementsByClassName("nsect")
   var i;
 
   function openNav() {
@@ -146,6 +150,18 @@
 
   function undone() {
     alert("Under contruction!");
+  }
+
+  for (i = 0; i < nav.length; i++) {
+    nav[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none"; 
+      } else {
+        content.style.display = "block";
+      }
+    })
   }
 
 </script>
