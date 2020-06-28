@@ -1,3 +1,4 @@
 /http://omizu.com.my /https://omizu.com.my
 /http://www.omizu.com.my /https://omizu.com.my
 /https://www.omizu.com.my /https://omizu.com.my
+https://omizu.netlify.app/* https://www.omizu.com.my/:splat 301!
