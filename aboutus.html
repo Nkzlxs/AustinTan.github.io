@@ -20,32 +20,37 @@
     <link rel="stylesheet" type="text/css" href="css/help.css">
     <nav id="navbar">
       <span onclick="openNav()">&#9776;</span>
-      <ul>
-        <a class="alg" href="#"><img class="logo" src="img/omizu-logo.jpg" alt=""></a>
-        <li><a id="a" onclick="undone()" class="cu" href="#" style="background-color: #ff7d7d;">Home</a></li>
-        <li><a id="b" onclick="undone()" href="#" style="background-color: #ff7d7d;">About Us</a></li>
-        <li><a id="c" href="">Product <i class="arrow down"></i></a>
-            <ul>
-              <li><a href="bapII.html">Body Acu-Pro II</a></li>
-            </ul>
-        </li>
-        <li><a id="d" href="help.html">Help</a></li>
-      </ul>
+      <a class="alg" href="#"><img class="logo" src="img/omizu-logo.jpg" alt="omizu logo"></a>
+        <ul>
+          <li class="a"><a id="a" onclick="undone()" class="cu" href="#" style="background-color: #ff7d7d;">Home</a></li>
+          <li class="b"><a id="b" onclick="undone()" href="#" style="background-color: #ff7d7d;">About Us</a></li>
+          <div class="drop">
+             <button class="dropbtn">Product<i class="arrow down"></i></button>
+             <div class="drop-content">
+               <a href="bapII.html">Body Acu-Pro II</a>
+               <a href="ht.html">Home Therapy</a>
+               <a href="osz.html">Oshinizu</a>
+             </div>
+          </div>
+          <li class="d"><a id="d" href="help.html">Help</a></li>
+        </ul>
     </nav>
-  </header>
+</header>
 
-  <div id="msnav" class="snav">
-    <div id="snava">
-      <a id="close" href="javascript:void(0)" class="close" onclick="cNav()"><img src="img/x.png" alt="X" class="x"></a>
-      <a class="home" href="index.html">Home</a>
-      <a href="aboutus.html">About Us</a>
-      <button class="nsect" href="#">Product  <i class="arrow down"></i></button>
-      <div class="nsec" >
-        <a href="bapII.html"><i class="arrow right"></i>Body Acu-Pro II</a>
-      </div>
-      <a href="help.html">Help</a>
+<div id="msnav" class="snav">
+  <div id="snava">
+    <a id="close" href="javascript:void(0)" class="close" onclick="cNav()"><img src="img/x.png" alt="X" class="x"></a>
+    <a class="home" href="index.html">Home</a>
+    <a href="aboutus.html">About Us</a>
+    <button class="nsect" href="#">Product  <i class="arrow down"></i></button>
+    <div class="nsec" >
+      <a href="bapII.html"><i class="arrow right"></i>Body Acu-Pro II</a>
+      <a href="ht.html"><i class="arrow right"></i>Home Therapy</a>
+      <a href="osz.html"><i class="arrow right"></i>Oshinizu</a>
     </div>
+    <a href="help.html">Help</a>
   </div>
+</div>
 
   <body>
 

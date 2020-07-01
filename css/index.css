@@ -33,10 +33,6 @@ body {
   overflow-x: hidden;
 }
 
-nav li {
-  display: inline;
-}
-
 .alg {
   width: 120px;
   display: block;
@@ -48,6 +44,7 @@ nav li {
   cursor: pointer;
   position: absolute;
   z-index: 1;
+  margin: 15px 0px 0px 15px;
 }
 
 li a {
@@ -59,53 +56,103 @@ li a {
   padding: 10px;
   float: right;
   font-size: 13pt;
-  transition: 350ms linear;
   border-radius: 2px;
-  margin-bottom: 15px;
 }
 
-li a:hover {
+#navbar ul{
+  margin-right: 10px;
+  float: right;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: auto;
+}
+
+nav li {
+  display: inline;
+}
+
+.a {
+  justify-self: center;
+  align-self: center;
+  grid-column: 4/4;
+  grid-row: 1/1;
+}
+
+.b {
+  justify-self: center;
+  align-self: center;
+  grid-column: 3/3;
+  grid-row: 1/1;
+}
+
+.drop {
+  justify-self: center;
+  align-self: center;
+  grid-column: 2/2;
+  grid-row: 1/1;
+}
+
+.d {
+  justify-self: center;
+  align-self: center;
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+
+.dropbtn {
+  border: 0;
+  background-color: #fff;
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Rubik', sans-serif;
+  display: inline;
+  z-index: 1;
+  padding: 10px;
+  float: right;
+  font-size: 13pt;
+  border-radius: 2px;
+  transition: 350ms linear;
+}
+
+.navbar a:hover, .drop:hover .dropbtn {
   transition: 350ms linear;
   background-color: #c5c5c5;
 }
 
-.h1 {
-  color: #000000 !important;
-}
-
-.arrow {
-  border: solid black;
-  border-width: 0 2px 2px 0;
-  display: inline-block;
-  padding: 3px;
-  margin-left: 2px;
-  margin-bottom: 2px;
-}
-
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-
-#navbar ul li ul {
-  font-family: 'Rubik', sans-serif;
+.drop-content {
   display: none;
   position: absolute;
-  background-color: #fff;
   margin-top: 40px;
-  right: 175px;
-  padding: 0;
+  z-index: 1;
+  background-color: white;
+  border-radius: 2px;
 }
 
-#navbar ul li:hover ul {
+.drop {
+  overflow: hidden;
+}
+
+.drop-content a:hover {
+  transition: 350ms linear;
+  background-color: rgb(241, 241, 241);
+}
+
+.drop-content a {
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Rubik', sans-serif;
   display: block;
-  transition: 500ms linear;
+  text-align: left;
+  padding: 10px;
+  float: right;
+  font-size: 13pt;
+  border-radius: 2px;
+  float: none;
+  transition: 350ms linear;
 }
 
-#navbar ul li ul li a {
-  display: inline-block;
-  position: relative;
-  margin: 0px;
+.drop:hover .drop-content {
+  display: block;
 }
 
 @media only screen and (max-width: 540px) {
@@ -351,10 +398,6 @@ li a:hover {
   }
 }
 
-.cu {
-  margin-right: 50px !important;
-}
-
 .head {
   padding-top: 80px;
   padding-left: 10px;
@@ -443,4 +486,18 @@ footer {
   text-align: center;
   display: inline-block;
   margin-top: 110px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }

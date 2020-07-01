@@ -122,7 +122,7 @@ nav li {
 .drop-content {
   display: none;
   position: absolute;
-  margin-top: 42px;
+  margin-top: 40px;
   z-index: 1;
   background-color: white;
   border-radius: 2px;
@@ -153,10 +153,6 @@ nav li {
 
 .drop:hover .drop-content {
   display: block;
-}
-
-.h1 {
-  color: #000000 !important;
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -479,23 +475,7 @@ nav li {
     display: none;
   }
 
-  .omz a {
-    display: none;
-  }
-
-  .omz h3 {
-    display: none;
-  }
-
   .cs {
-    display: none;
-  }
-
-  .cs a {
-    display: none;
-  }
-
-  .cs h3 {
     display: none;
   }
 
@@ -685,23 +665,42 @@ footer {
 }
 
 .sec2 {
-  margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto auto;
-  justify-items: center;
+  margin: 20px;
+  grid-gap: 20px;
 }
 
-.sec2 ul li p {
+.sec2 ol li p {
   margin: 8px 0 8px 0;
 }
 
-.sec2 ul {
-  list-style-position: inside;
+.sec2 p {
+  text-align: justify;
+  align-self: end;
 }
 
-.sec2 ul li {
+.fc {
+  grid-row: 1/1;
+  grid-column: 1/1;
+}
+
+.wn {
+  grid-row: 1/1;
+  grid-column: 2/2;
+}
+
+.fcol {
   text-align: justify;
+  grid-row: 2/4;
+  grid-column: 1/1;
+}
+
+.wnol {
+  text-align: justify;
+  grid-row: 3/3;
+  grid-column: 2/2;
 }
 
 .fts {
@@ -735,10 +734,15 @@ footer {
 }
 
 .sec4 {
+  justify-items: center;
+  align-items: center;
   padding-top: 30px;
   padding-bottom: 50px;
   margin-bottom: 0 !important;
   background-color: #2c2c2c;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
 }
   
 .sec4 h3 {
@@ -764,6 +768,25 @@ footer {
   text-align: left;
   position: relative;
   display: inline-block;
+}
+
+.sec4 ul {
+  list-style-position: inside;
+}
+
+.sec4 ul li {
+  grid-row: 2/2;
+  grid-column: 2/2;
+  margin-bottom: 0 !important;
+  color: #dddddd;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.sec4 div {
+  grid-row: 1/3;
+  grid-column: 1/1;
 }
 
 .bk {
