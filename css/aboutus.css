@@ -59,8 +59,8 @@ li a {
   border-radius: 2px;
 }
 
-#navbar ul{
-  margin-right: 10px;
+nav ul{
+  margin-right: 40px;
   float: right;
   display: grid;
   grid-template-rows: 1fr;
@@ -68,6 +68,7 @@ li a {
 }
 
 nav li {
+  border-radius: 2px;
   display: inline;
 }
 
@@ -99,7 +100,7 @@ nav li {
   grid-row: 1/1;
 }
 
-.dropbtn {
+.dropbtn , .homebtn{
   border: 0;
   background-color: #fff;
   text-decoration: none;
@@ -119,13 +120,27 @@ nav li {
   background-color: #c5c5c5;
 }
 
-.drop-content {
+.dropp:hover .homebtn {
+  transition: 350ms linear;
+  background-color: rgb(241, 241, 241);
+}
+
+nav ul li:hover {
+  transition: 350ms linear;
+  background-color: #c5c5c5;
+}
+
+.drop-content , .home-content{
   display: none;
   position: absolute;
   margin-top: 40px;
   z-index: 1;
   background-color: white;
   border-radius: 2px;
+}
+
+.nav-bapII {
+  margin-top: 40px;
 }
 
 .drop {
@@ -151,7 +166,23 @@ nav li {
   transition: 350ms linear;
 }
 
-.drop:hover .drop-content {
+.homebtn {
+  padding: 0;
+  width: 100%;
+}
+
+.home-content {
+  width: 100%;
+  margin-top: 0px;
+  margin-left: -147px;
+}
+
+.home-content a {
+  justify-self: center;
+  align-self: center;
+}
+
+.drop:hover .drop-content , .dropp:hover .home-content{
   display: block;
 }
 
@@ -504,4 +535,9 @@ footer {
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+}
+
+.left {
+  transform: rotate(-225deg);
+  -webkit-transform: rotate(-225deg);
 }
