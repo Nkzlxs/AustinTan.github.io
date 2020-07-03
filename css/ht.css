@@ -723,10 +723,6 @@ footer {
   margin: 8px 0 8px 0;
 }
 
-.sec2 ul {
-  list-style-position: inside;
-}
-
 .sec2 ul li {
   text-align: justify;
 }
