@@ -188,57 +188,10 @@ nav ul li:hover {
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   /*Tablet portrait*/
-  
-  
 }
 
 @media (min-width: 768px) and (max-width: 1024px) { 
     /*Tablet landscape*/
-  .logo {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-
-  #a {
-    display: inline;
-    float: right;
-    margin-top: 10px;
-    margin-left: 30px;
-  }
-
-  #b {
-    display: inline;
-    float: right;
-    margin-top: 10px;
-    margin-left: 30px;
-  }
-
-  #c {
-    display: inline;
-    float: right;
-    margin-top: 10px;
-    margin-right: 10px;
-  }
-
-  #d {
-    display: inline;
-    float: right;
-    margin-top: 10px;
-    margin-right: 30px;
-  }
-
-  .head {
-    padding-top: 65px !important;
-  }
-
-  nav {
-    padding-bottom: 20px;
-  }
-  
-  .h1 {
-    color: #000000 !important;
-  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -670,7 +623,7 @@ footer {
 
 .sec1 {
   display: grid;
-  margin: 20px 20px 20px 0px;
+  margin: 20px 20px 0px 0px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
@@ -699,7 +652,8 @@ footer {
   justify-content: center;
   display: grid;
   margin: 10px;
-  grid-template-columns: 50% 200px 200px 200px;
+  grid-gap: 20px;
+  grid-template-columns: 50% auto auto auto;
   grid-template-rows: 100px 80px auto;
 }
 
