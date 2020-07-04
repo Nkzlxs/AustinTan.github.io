@@ -17,6 +17,7 @@
     <meta name="Description" content="Omizu Home Therapy">
     <meta name="Keywords" content="Omizu, health, health care, home therapy, Malaysia, sauna, portable">
     <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/ht.css">
     <meta property="og:type" content="company">
     <meta property="og:image" content="https://omizu.com.my/img/ht-min.png">
@@ -29,7 +30,7 @@
   </head>
   <header>
     <nav id="navbar">
-        <span onclick="openNav()">&#9776;</span>
+      <span id="open" onclick="openNav()">&#9776;</span>
         <a class="alg" href="#"><img class="logo" src="img/omizu-logo.jpg" alt="omizu logo"></a>
           <ul>
             <li class="a"><a id="a" onclick="undone()" class="cu" href="#" style="background-color: #ff7d7d;">Home</a></li>
@@ -49,23 +50,22 @@
             </div>
             <li class="d"><a id="d" href="help.html">Help</a></li>
           </ul>
-      </nav>
+          <div id="msnav" class="">
+            <span id="close" class="close" onclick="cNav()">&#10006;</span>
+            <div id="snava">
+              <a class="home" href="index.html">Home</a>
+              <a href="aboutus.html">About Us</a>
+              <button class="nsect" href="#">Product  <i class="arrow down"></i></button>
+              <div id="nsec" class="nsec" >
+                  <a href="bapII.html"><i class="arrow right"></i>Body Acu-Pro II</a>
+                  <a href="ht.html"><i class="arrow right"></i>Home Therapy</a>
+                  <a href="osz.html"><i class="arrow right"></i>Oshinizu</a>
+              </div>
+              <a href="help.html">Help</a>
+            </div>
+          </div>
+        </nav>
   </header>
-
-<div id="msnav" class="snav">
-  <div id="snava">
-    <a id="close" href="javascript:void(0)" class="close" onclick="cNav()"><img src="img/x.png" alt="X" class="x"></a>
-    <a class="home" href="index.html">Home</a>
-    <a href="aboutus.html">About Us</a>
-    <button class="nsect" href="#">Product  <i class="arrow down"></i></button>
-    <div class="nsec" >
-      <a href="bapII.html"><i class="arrow right"></i>Body Acu-Pro II</a>
-      <a href="ht.html"><i class="arrow right"></i>Home Therapy</a>
-      <a href="osz.html"><i class="arrow right"></i>Oshinizu</a>
-    </div>
-    <a href="help.html">Help</a>
-  </div>
-</div>
 
   <body>
     <div class="head">
@@ -138,56 +138,4 @@
 </footer>
 </html>
 
-<script type="text/javascript">
-
-
-  var sideNav = document.getElementById("msnav")
-  var sideNavA = document.getElementById("snava")
-  var retail = document.getElementsByClassName("sect")
-  var nav = document.getElementsByClassName("nsect")
-  var i;
-
-  function openNav() {
-    msnav.style.width = "50%";
-    msnav.style.height = "110%"
-    msnav.style.filter = "drop-shadow(2px 2px 5px #000000)";
-    snava.style.display = "block";
-    document.body.style.overflow = "hidden";
-  }
-
-  function cNav() {
-    msnav.style.width = "0";
-    msnav.style.height = "110%"
-    snava.style.display = "none";
-    document.body.style.overflow = "auto";
-  }
-
-  for (i = 0; i < retail.length; i++) {
-    retail[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.maxHeight) {
-        content.style.maxHeight = null; 
-      } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-      }
-    })
-  }
-
-  function undone() {
-    alert("Under contruction!");
-  }
-
-  for (i = 0; i < nav.length; i++) {
-    nav[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.display === "block") {
-        content.style.display = "none"; 
-      } else {
-        content.style.display = "block";
-      }
-    })
-  }
-
-</script>
+<script src="js/js.js"></script>
