@@ -9,22 +9,37 @@
 
 <url>
   <loc>https://omizu.com.my/</loc>
-  <lastmod>2020-06-28T14:28:49+00:00</lastmod>
+  <lastmod>2020-07-04T10:49:59+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://omizu.com.my/ht.html</loc>
+  <lastmod>2020-07-04T10:49:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://omizu.com.my/ch.html</loc>
+  <lastmod>2020-07-04T10:49:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://omizu.com.my/bapii</loc>
-  <lastmod>2020-06-28T14:28:49+00:00</lastmod>
+  <lastmod>2020-07-04T10:49:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://omizu.com.my/osz.html</loc>
+  <lastmod>2020-07-04T10:49:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://omizu.com.my/help.html</loc>
-  <lastmod>2020-06-28T14:28:49+00:00</lastmod>
+  <lastmod>2020-07-04T10:49:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://omizu.com.my/aboutus.html</loc>
-  <lastmod>2020-06-28T14:28:49+00:00</lastmod>
+  <loc>https://omizu.com.my/index.html</loc>
+  <lastmod>2020-07-04T10:49:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
