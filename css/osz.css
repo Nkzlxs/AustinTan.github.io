@@ -254,6 +254,7 @@ footer {
 }
 
 .sec1 img{
+  align-self: center;
   justify-self: center;
   width: 50%;
   height: auto;
