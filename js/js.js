@@ -15,9 +15,9 @@ function openNav() {
 }
 
 function cNav() {
-  msnav.classList.add("bitch");
   msnav.style.padding = "0 0 0 0";
-  nsec.style.display = "none";
+  nsec[0].style.display = "none";
+  nsec[1].style.display = "none";
   snava.style.display = "none";
   open.style.display = "block";
   close.style.display = "none";
@@ -50,4 +50,8 @@ for (i = 0; i < nav.length; i++) {
 
 function undone() {
   alert("Under contruction!");
+}
+
+function noProductpage() {
+  alert("There's no product page for this product.");
 }

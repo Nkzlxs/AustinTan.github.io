@@ -223,7 +223,7 @@ nav ul li:hover {
     transition: ease 500ms;
   }
   
-  .nsec {
+  .nsec , .nnsec{
     display: none;
     background-color: #f3f3f3;
     transition: ease 500ms;
@@ -358,7 +358,7 @@ nav ul li:hover {
       margin: 50px 10px 0px 10px;
     }
   
-    .nsect {
+    .nsect{
       width: 100%;
       border: 0;  
       padding: 10px;
@@ -461,7 +461,7 @@ nav ul li:hover {
         margin: 50px 10px 0px 10px;
       }
     
-      .nsect {
+      .nsect{
         width: 100%;
         border: 0;  
         padding: 10px;
@@ -720,7 +720,7 @@ nav ul li:hover {
     font-size: 10px;
   }
 
-  .nsect {
+  .nsect{
     width: 100%;
     border: 0;  
     padding: 10px;
