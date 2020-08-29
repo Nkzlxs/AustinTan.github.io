@@ -24,6 +24,7 @@
 }
 
 .sec1 {
+  position: relative;
   padding-top: 80px;
   padding-left: 10px;
   padding-bottom: 30px;
@@ -111,4 +112,27 @@ footer {
   text-align: center;
   display: inline-block;
   margin-top: 110px;
+}
+
+.sec1 img {
+  z-index: -1;
+  width: 95%;
+}
+
+.sec1 h1 {
+  position: absolute;
+  top: 15%;
+  left: 33%;
+}
+
+.sec1 p {
+  position: absolute;
+  top: 23%;
+  left: 48%;
+}
+
+.sec1 button {
+  position: absolute;
+  top: 30%;
+  left: 44%;
 }

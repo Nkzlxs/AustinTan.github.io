@@ -14,6 +14,17 @@ function openNav() {
   document.body.style.overflow = "hidden";
 }
 
+function openProducts() {
+  msnav.classList.add("msnav");
+  msnav.style.padding = "0 0 200% 0";
+  snava.style.display = "block";
+  close.style.display = "block";
+  open.style.display = "none";
+  nsec[0].style.display = "block";
+  nsec[1].style.display = "block";
+  document.body.style.overflow = "hidden";
+}
+
 function cNav() {
   msnav.style.padding = "0 0 0 0";
   nsec[0].style.display = "none";
