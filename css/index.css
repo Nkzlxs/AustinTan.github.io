@@ -26,7 +26,6 @@
 .sec1 {
   position: relative;
   padding-top: 80px;
-  padding-left: 10px;
   padding-bottom: 30px;
   color: #000000;
   font-family: 'Rubik', sans-serif;
@@ -53,6 +52,12 @@
   padding-right: 40px;
   padding-top: 15px;
   padding-bottom: 15px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  right: 50%;
+  margin-left: -110px;
+  width: 220px;
 }
 
 .co:hover {
@@ -115,6 +120,7 @@ footer {
 }
 
 .sec1 img {
+  position: relative;
   z-index: -1;
   width: 95%;
 }
@@ -122,17 +128,13 @@ footer {
 .sec1 h1 {
   position: absolute;
   top: 15%;
-  left: 33%;
+  left: 0;
+  right: 0;
 }
 
 .sec1 p {
   position: absolute;
   top: 23%;
-  left: 48%;
-}
-
-.sec1 button {
-  position: absolute;
-  top: 30%;
-  left: 44%;
+  left: 0;
+  right: 0;
 }
