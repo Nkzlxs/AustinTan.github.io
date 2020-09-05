@@ -10,8 +10,14 @@
 
 @media (min-width: 768px) and (max-width: 1024px) { 
     /*Tablet landscape*/
-    .sec1 {
-      margin-top: 50px !important;
+    .sec1 h1 {
+      top: 15% !important;
+    }
+    .sec1 p {
+      top: 25% !important;
+    }
+    .sec1 button {
+      top: 45% !important;
     }
 }
 
@@ -29,17 +35,20 @@
     color: #fff;
   }
   .sec1 p {
-    top: 44% !important;
+    top: 37% !important;
     margin: 0 30px 0 30px;
     color: #fff;
   }
   .sec1 button {
-    top: 57% !important;
-    background-color: #00000015;
-    border-radius: 10px;
+    top: 46% !important;
+    background-color: #98fb98 !important;
+    border-radius: 4px;
+    color: #000;
   }
   .hm_mobile {
     z-index: -1;
+    display: block !important;
+    margin: 10px !important;
   }
 }
 
@@ -63,11 +72,14 @@
   }
   .sec1 button {
     top: 57% !important;
-    background-color: #00000015;
-    border-radius: 10px;
+    background-color: #98fb98 !important;
+    border-radius: 4px;
+    color: #000;
   }
   .hm_mobile {
     z-index: -1;
+    display: block !important;
+    margin: 10px;
   }
 }
 
@@ -89,7 +101,7 @@
 }
 
 .co {
-  background-color: #474747;
+  background-color: #485320;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -110,7 +122,7 @@
 
 .co:hover {
   color: #000000;
-  background-color: #b5b5b5;
+  background-color: #98FF98;
 }
 
 footer {
@@ -171,6 +183,10 @@ footer {
   position: relative;
   z-index: -1;
   width: 95%;
+}
+
+.hm_mobile {
+  display: none;
 }
 
 .sec1 h1 {
