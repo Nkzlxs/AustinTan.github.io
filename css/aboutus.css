@@ -113,7 +113,7 @@ footer {
 }
 
 .sec1 {
-  height: 715px;
+  height: 100vh;
   background-image: url(/img/aboutus.jpg);
   background-attachment: fixed;
   background-position: center;
