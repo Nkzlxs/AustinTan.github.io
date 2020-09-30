@@ -390,3 +390,7 @@ footer {
   background-color: #666666;
   padding-top: 8px;
 }
+
+header { 
+  background-color: #fff !important;
+}

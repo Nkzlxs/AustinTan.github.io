@@ -15,7 +15,7 @@ span {
   
 header {
     z-index: 5;
-    background-color: #FFFFFF;
+    background-color: transparent;
     position: fixed;
     left: 0;
     right: 0;

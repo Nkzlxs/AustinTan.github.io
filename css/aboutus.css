@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-@media only screen and (max-width: 540px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .white {
+    color: #fff !important;
+  }
 }
 
-@media only screen and (max-width: 485px) {
+@media (min-width: 768px) and (max-width: 1024px) { 
+  /*Tablet landscape*/
+  .white {
+    color: #fff !important;
+  }
+}
+
+header {
+  transition: background-color 350ms ease-in-out;
 }
 
 .head {
@@ -95,4 +106,59 @@ footer {
   text-align: center;
   display: inline-block;
   margin-top: 110px;
+}
+
+.sec1 {
+  height: 715px;
+  background-image: url(/img/aboutus.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec1 h1 {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  z-index: 2;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  filter: drop-shadow(100);
+}
+
+.sec1 p {
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  z-index: 2;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.sec2 {
+  padding: 150px 0 150px 0;
+}
+
+.sec2 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 21px;
+}
+
+.sec2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 100px 20px 100px;
+}
+
+header.solid {
+  background-color: #fff;
 }
