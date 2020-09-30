@@ -18,6 +18,10 @@ header {
   transition: background-color 350ms ease-in-out;
 }
 
+.dropbtn {
+  background-color: transparent;
+}
+
 .head {
   padding-top: 80px;
   padding-left: 10px;
