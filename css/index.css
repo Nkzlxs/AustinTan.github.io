@@ -83,6 +83,14 @@
   }
 }
 
+.dropbtn {
+  color: #000;
+}
+
+li a {
+  color: #000;
+}
+
 .sec1 {
   position: relative;
   padding-top: 80px;

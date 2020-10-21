@@ -73,6 +73,14 @@
   }
 }
 
+li a {
+  color: #000;
+}
+
+.dropbtn {
+  color: #000;
+}
+
 .head {
   padding-top: 80px;
   color: #000000;

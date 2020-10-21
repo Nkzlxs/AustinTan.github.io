@@ -200,3 +200,11 @@ footer {
 header { 
   background-color: #fff !important;
 }
+
+li a {
+  color: #000;
+}
+
+.dropbtn {
+  color: #000;
+}

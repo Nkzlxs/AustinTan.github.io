@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -46,8 +48,8 @@ body {
   
 li a {
     text-decoration: none;
-    color: #000000;
-    font-family: 'Rubik', sans-serif;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
     display: inline;
     z-index: 1;
     padding: 10px;
@@ -101,15 +103,15 @@ nav li {
     border: 0;
     background-color: #fff;
     text-decoration: none;
-    color: #000000;
-    font-family: 'Rubik', sans-serif;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
     display: inline;
     z-index: 1;
     padding: 10px;
     float: right;
     font-size: 13pt;
     border-radius: 2px;
-    transition: 350ms linear;
+    transition: 80ms linear;
 }
   
 .navbar a:hover, .drop:hover .dropbtn {
@@ -161,7 +163,7 @@ nav ul li:hover {
 .drop-content a {
     text-decoration: none;
     color: #000000;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     display: block;
     text-align: left;
     padding: 10px;
@@ -219,7 +221,7 @@ nav ul li:hover {
     color: #000;
     font-size: 18px;
     font-style: normal;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     transition: ease 500ms;
   }
   
@@ -268,7 +270,7 @@ nav ul li:hover {
   }
 
   .arrow {
-    border: solid black;
+    border: solid #000;
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
@@ -309,7 +311,7 @@ nav ul li:hover {
       font-size: 18px;
       font-style: normal;
       text-align: center;
-      font-family: 'Lato', sans-serif;
+      font-family: 'Open Sans', sans-serif;
     }
   
     .snav a:hover {
@@ -369,7 +371,7 @@ nav ul li:hover {
       font-size: 18px;
       font-style: normal;
       text-align: center;
-      font-family: 'Lato', sans-serif;
+      font-family: 'Open Sans', sans-serif;
     }
   
     .sec3 img {
@@ -412,7 +414,7 @@ nav ul li:hover {
         font-size: 18px;
         font-style: normal;
         text-align: center;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Open Sans', sans-serif;
       }
     
       .snav a:hover {
@@ -472,7 +474,7 @@ nav ul li:hover {
         font-size: 18px;
         font-style: normal;
         text-align: center;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Open Sans', sans-serif;
       }
     
       .sec3 img {
@@ -515,7 +517,7 @@ nav ul li:hover {
     font-size: 20px;
     font-style: bold;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
   .snav a:hover {
@@ -603,7 +605,7 @@ nav ul li:hover {
     font-size: 18px;
     font-style: normal;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
   .sec3 img {
@@ -649,7 +651,7 @@ nav ul li:hover {
     font-size: 18px;
     font-style: normal;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
   .snav a:hover {
@@ -731,7 +733,7 @@ nav ul li:hover {
     font-size: 18px;
     font-style: normal;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
   .sec3 img {

@@ -16,12 +16,17 @@
 
 @media (min-width: 481px) and (max-width: 767) {
   /*Smartphone*/
+  
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .sec1 p {
     top: 65% !important;
   }
+}
+
+.white {
+  color: #000 !important;
 }
 
 header {

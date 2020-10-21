@@ -1,9 +1,15 @@
     $(window).scroll(function() {
       if($(this).scrollTop() > 650) { 
           $('header').addClass('solid');
-          $('.openNav').removeClass('white');
+          $('.cu').addClass('white');
+          $('.au').addClass('white');
+          $('.dropbtn').addClass('white');
+          $('.hp').addClass('white');
       } else {
           $('header').removeClass('solid');
-          $('.openNav').addClass('white');
+          $('.cu').removeClass('white');
+          $('.au').removeClass('white');
+          $('.dropbtn').removeClass('white');
+          $('.hp').removeClass('white');
       }
     });
