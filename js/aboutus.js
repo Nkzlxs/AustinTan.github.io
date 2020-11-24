@@ -1,5 +1,5 @@
     $(window).scroll(function() {
-      if($(this).scrollTop() > 650) { 
+      if($(this).scrollTop() > 750) { 
           $('header').addClass('solid');
           $('.cu').addClass('white');
           $('.au').addClass('white');
